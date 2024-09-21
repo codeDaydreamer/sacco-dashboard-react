@@ -1,0 +1,30 @@
+/* styles.css */
+.container {
+    display: flex;
+    height: 100vh; /* Ensure it takes full height */
+  }
+  
+  .sidebar {
+    width: 250px; /* Fixed width for sidebar */
+    background-color: #24292e; /* Dark sidebar */
+    color: #f5f5f5;
+    padding: 20px;
+    position: fixed; /* Fix position */
+    height: 100%; /* Full height */
+    margin-top: 30px;
+  }
+  
+  .main-content {
+    margin-left: 250px; /* Leave space for sidebar */
+    padding: 20px;
+    flex: 1;
+    overflow-y: auto; /* Scrollable content */
+   
+  }
+  .chart-container {
+    padding: 16px; /* Add padding */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: inherit; /* Use the background color of the theme */
+  }
+  

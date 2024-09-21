@@ -1,0 +1,35 @@
+.chart-container {
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: inherit; /* Use the background color of the theme */
+    height: 300px; /* Set a fixed height */
+    width: 100%; /* Ensure it fills the parent */
+    display: flex; /* Use flex for alignment */
+    flex-direction: column; /* Arrange items in a column */
+    align-items: center; /* Center align items */
+  }
+  
+  .canvas-container {
+    flex-grow: 1; /* Allow canvas to grow and take available space */
+    width: 100%; /* Ensure it fills the parent */
+  }
+  
+  canvas {
+    max-height: 100% !important; /* Ensure canvas height is constrained */
+    max-width: 100% !important; /* Ensure canvas width is constrained */
+    width: auto !important; /* Allow width to be auto */
+    height: auto !important; /* Allow height to be auto */
+  }
+  
+  .legend {
+    display: flex;
+    justify-content: space-around; /* Adjust spacing between legend items */
+    width: 100%; /* Ensure it fills the parent */
+    margin-bottom: 16px; /* Add space between legend and chart */
+    color: #000; /* Change legend text color */
+    font-size: 14px; /* Set font size */
+    font-family: Arial, sans-serif; /* Set font family */
+    font-weight: bold; /* Set font weight */
+  }
+  

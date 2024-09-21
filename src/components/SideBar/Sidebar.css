@@ -1,0 +1,33 @@
+.sidebar {
+  margin-top: 30px; /* Adjusts top margin */
+  transition: transform 0.3s ease;
+  overflow: hidden;
+ /* Ensure background is set */
+  height: calc(100vh - 30px); /* Adjust height */
+  border: 1px solid #5d5c5c; /* Light gray border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  padding: 15px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: inherit; /* Uses theme's text color */
+  border-radius: 8px;
+}
+
+.sidebar-item:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-item.active {
+  font-weight: bold;
+  background-color: rgba(118, 104, 246, 0.447);
+}
+
+.sidebar-item span {
+  margin-left: 10px;
+}

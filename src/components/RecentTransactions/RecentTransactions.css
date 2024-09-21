@@ -1,0 +1,8 @@
+.recent-transactions {
+    border-radius: 8px; /* Adds rounded corners */
+  }
+  
+  .recent-transactions-header {
+    font-weight: bold; /* Makes the header bold */
+  }
+  
