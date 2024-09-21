@@ -8,10 +8,12 @@ import ReportsPage from './pages/ReportsPage';
 import SettingsPage from './pages/SettingsPage';
 import Sidebar from "./components/SideBar/Sidebar"; // Ensure the casing matches the folder name
 import { Box } from '@mui/material'; // Import Box for layout
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 const App = () => {
   return (
     <ThemeProviderWrapper>
+    <SpeedInsights />
       <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
         <Sidebar open={true} toggleDrawer={() => {}} /> {/* Sidebar is always open for simplicity */}
         <Box
